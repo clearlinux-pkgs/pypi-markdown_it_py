@@ -4,7 +4,7 @@
 #
 Name     : pypi-markdown_it_py
 Version  : 2.0.1
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/de/65/536b025d5fe2d5c9a3229748582b647d70dde80ac2a6686b7fd3cff241dd/markdown-it-py-2.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/de/65/536b025d5fe2d5c9a3229748582b647d70dde80ac2a6686b7fd3cff241dd/markdown-it-py-2.0.1.tar.gz
 Summary  : Python port of markdown-it. Markdown parsing, done right!
@@ -18,7 +18,6 @@ BuildRequires : buildreq-distutils3
 BuildRequires : pypi(attrs)
 BuildRequires : pypi(mdurl)
 BuildRequires : pypi(setuptools)
-BuildRequires : pypi(typing_extensions)
 BuildRequires : pypi(wheel)
 
 %description
@@ -63,7 +62,6 @@ Requires: python3-core
 Provides: pypi(markdown_it_py)
 Requires: pypi(attrs)
 Requires: pypi(mdurl)
-Requires: pypi(typing_extensions)
 
 %description python3
 python3 components for the pypi-markdown_it_py package.
@@ -78,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1643070402
+export SOURCE_DATE_EPOCH=1649784434
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
